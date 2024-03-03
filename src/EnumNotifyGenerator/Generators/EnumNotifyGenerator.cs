@@ -1,15 +1,8 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.CSharp;
-using System;
-using System.Collections.Generic;
 using System.Collections.Immutable;
-using System.Reflection;
 using System.Text;
-using System.Diagnostics;
-using System.Xml.Linq;
-using System.Runtime.InteropServices;
-using System.IO;
 using EnumNotifyGenerator.Extensions;
 
 namespace EnumNotifyGenerator.Generators;

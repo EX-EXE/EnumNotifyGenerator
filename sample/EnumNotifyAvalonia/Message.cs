@@ -32,14 +32,8 @@ public partial class Message : INotifyPropertyChanged
 	[EnumValue(Language.English, "Error")]
 	private string errorMessage = string.Empty;
 
-	[EnumValue(Language.Japanese, new Message())]
-	[EnumValue(Language.English, "Error")]
-	private Message s = string.Empty;
 }
-public struct a
-{
 
-}
 public class MessageBinding(string path) : MarkupExtension
 {
 	public string Path { get; set; } = path;
