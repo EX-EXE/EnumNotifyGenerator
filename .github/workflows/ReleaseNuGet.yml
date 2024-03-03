@@ -27,7 +27,7 @@ jobs:
         dotnet-version: 8.x.x
 
     - name: Restore
-      run: dotnet restore
+      run: dotnet restore ./src/EnumNotifyGenerator/
     
     - name: Nuget Pack
       run: dotnet pack ./src/EnumNotifyGenerator/ -c release -p:Version=${{ env.VERSION }} -o /tmp/nuget/
