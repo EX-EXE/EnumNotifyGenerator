@@ -18,7 +18,10 @@
 		<IncludeSymbols>false</IncludeSymbols>
 		<SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
 		<PackageTags>generator;</PackageTags>
-		<Description></Description>
+		<Description>
+			EnumAttributeGenerator is a C# source generator that facilitates the automatic generation of attributed properties based on changes to specified enum values.
+			When an enum value is modified, properties adorned with specific attributes are automatically updated.
+		</Description>
 	</PropertyGroup>
 
 	<ItemGroup>
