@@ -100,6 +100,7 @@ partial class Message
 }
 ```
 ### Usage(WPF)
+![image](https://github.com/EX-EXE/EnumNotifyGenerator/assets/114784289/0633a519-38e0-4a9f-8eba-fcb3337120f9)
 #### MessageBinding.cs
 ```csharp
 public class MessageBinding(string path) : MarkupExtension
