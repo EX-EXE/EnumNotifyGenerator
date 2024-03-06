@@ -17,6 +17,13 @@
 		<DevelopmentDependency>true</DevelopmentDependency>
 		<IncludeSymbols>false</IncludeSymbols>
 		<SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+
+		<Authors>EX-EXE</Authors>
+		<Owners>EX-EXE</Owners>
+		<PackageProjectUrl>https://github.com/EX-EXE/EnumNotifyGenerator</PackageProjectUrl>
+		<RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageTags>generator;</PackageTags>
 		<Description>
 			EnumAttributeGenerator is a C# source generator that facilitates the automatic generation of attributed properties based on changes to specified enum values.
